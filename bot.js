@@ -26,7 +26,7 @@ setInterval(() => {
 
 // Initialize the bot
 client.on("ready", async () => {
-  client.user.setPresence({game: {name: "BrutalMagicianKZ's Fleet PO Monitor", type: 0}});
+  client.user.setPresence({game: {name: "BrutalMagicianKZ's PO Monitor", type: 0}});
   writeChannel = client.channels.get(process.env.writeChannelId);
   initializeMessageObject();
 })
@@ -138,7 +138,7 @@ function calculateSecondsUntilPayout () {
 
 async function sendMessage () {
   let embed = new Discord.RichEmbed();  
-  embed.setTitle('Fleet PO Monitor. Updates every 60 sec. Next in:');
+  embed.setTitle('Fleet PO Monitor. Updates every 1 min. Next in:');
   let desc = 'Changed PO time? Pls contact to <@443487478091874324>.  Thnx';
   for (let i in mates) {    
     let fieldName = String(mates[i].time) + " - (UTC " + String(mates[i].po.hours).padStart(2, '00') + ":" + String(mates[i].po.minutes).padStart(2, '00') + ")";
