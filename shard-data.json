@@ -138,6 +138,12 @@
     "UTC": "8:00"
   },
   {
+    "Name": "SupremeLeaderGonk",
+    "Flag": ":flag_ca:",
+    "SWGOH": "<https://swgoh.gg/p/632194469/>",
+    "UTC": "01:00"
+  },
+  {
     "Name": "Syndulla",
     "Flag": ":flag_kr:",
     "SWGOH": "<https://swgoh.gg/p/754447966/>",
@@ -148,12 +154,6 @@
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/161369463/>",
     "UTC": "0:00"
-  },
-  {
-    "Name": "TheGreatSupremeLeaderBinks",
-    "Flag": ":flag_ca:",
-    "SWGOH": "<https://swgoh.gg/p/632194469/>",
-    "UTC": "01:00"
   },
   {
     "Name": "Thorskrieger",
