@@ -7,7 +7,7 @@
   },
   {
     "Name": "ak47",
-    "Flag": ":crossed_swords:",
+    "Flag": ":pirate_flag:",
     "SWGOH": "<https://swgoh.gg/p/812358224/>",
     "UTC": "18:00"
   },
@@ -172,5 +172,11 @@
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/875992967/>",
     "UTC": "0:00"
+  },
+  {
+    "Name": "Wollowitz",
+    "Flag": ":pirate_flag:",
+    "SWGOH": "<https://swgoh.gg/p/845621817/>",
+    "UTC": "19:00"
   }
 ]
